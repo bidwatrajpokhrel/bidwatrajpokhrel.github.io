@@ -1,9 +1,10 @@
-/* Upper Header */
-.upper-header-wrapper {
-  padding: 0 32px;
-  width: 100%;
-  display: table;
+.body-wrapper {
+  min-width: 1002px;
 }
+
+/* Upper Header */
+/* .upper-header-wrapper {
+} */
 
 .upper-header {
   width: 939px;
@@ -56,8 +57,6 @@
 .lower-header-wrapper {
   margin-bottom: 30px;
   padding: 0 32px;
-  width: 100%;
-  display: table;
 }
 .lower-header {
   width: 939px;
@@ -76,16 +75,14 @@
 /*main*/
 
 .main-wrapper {
-  padding: 0 32px;
+  margin: 0 auto;
   margin-bottom: 32px;
-  width: 100%;
-  display: table;
   height: 100%;
+  display: table;
 }
 
 .main {
   width: 939px;
-  margin: 0 auto;
   overflow: hidden;
   height: 100%;
 }
@@ -131,10 +128,7 @@
 
 /*footer*/
 .footer-wrapper {
-  padding: 0 32px;
   background: #727272;
-  width: 100%;
-  display: table;
 }
 
 .footer {
