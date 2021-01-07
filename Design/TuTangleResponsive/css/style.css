@@ -102,7 +102,7 @@
 }
 
 .nav ul li {
-  display: inline-block;
+  display: block;
 }
 
 .nav ul li a {
@@ -111,16 +111,6 @@
   padding: 15px 5px 15px 5px;
   font-size: 11pt;
   color: #000000;
-}
-
-.nav ul .first-child a {
-  text-decoration: none;
-  padding: 15px 5px 15px 0px;
-}
-
-.nav ul .last-child a {
-  text-decoration: none;
-  padding: 15px 0px 15px 5px;
 }
 
 .nav ul li a:hover {
@@ -201,15 +191,15 @@
 
 /*HOVER SHOW*/
 
-.side-bar-header.supreme:hover+.side-bar-header.left-bar {
+.side-bar-header.supreme:hover~.side-bar-header.left-bar {
   display: block;
 }
 
-.side-bar-header.supreme:hover+.side-bar-body.left-bar {
+.side-bar-header.supreme:hover~.side-bar-body.left-bar {
   display: block;
 }
 
-.side-bar-header.right:hover+.side-bar-body.right {
+.side-bar-header.right:hover~.side-bar-body.right {
   display: block;
 }
 

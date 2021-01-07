@@ -30,7 +30,6 @@
 }
 
 .searchbar {
-  margin-right: 7px;
   float: left;
   width: 78.2728999%
 }
@@ -51,6 +50,9 @@
 
 .profile {
   display: none;
+  float: right;
+  clear: right;
+  margin-right: 30px;
 }
 
 .profile-name {
@@ -62,7 +64,7 @@
   clear: right;
 }
 
-.triple-menu-icon-div a:hover+.profile {
+.triple-menu-icon-div:hover~.profile {
   display: block;
 }
 
@@ -86,6 +88,13 @@
 .nav {
   display: none;
   float: left;
+  position: absolute;
+  background-color: #2fc1da;
+  margin-left: 40px;
+}
+
+.hamburger-icon-div:hover~.nav {
+  display: block;
 }
 
 .notifications {

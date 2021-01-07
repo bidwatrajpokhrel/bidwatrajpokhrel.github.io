@@ -116,6 +116,7 @@
     .profile {
         display: block;
         float: right;
+        clear: none;
     }
     .search {
         display: block;
@@ -130,6 +131,21 @@
     }
     .nav {
         display: block;
+        position: relative;
+        background-color: transparent;
+        margin-left: 0;
+    }
+    .nav ul li {
+        display: inline-block;
+        text-align: left;
+    }
+    .nav ul .first-child a {
+        text-decoration: none;
+        padding: 15px 5px 15px 0px;
+    }
+    .nav ul .last-child a {
+        text-decoration: none;
+        padding: 15px 0px 15px 5px;
     }
     .lower-header {
         width: 58.75em;
