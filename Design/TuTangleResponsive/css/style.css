@@ -114,7 +114,8 @@
 }
 
 .nav ul li a:hover {
-  background: #d7d7d7;
+  background: #f0f0f0;
+  color: #2fc1d9;
 }
 
 .notifications {
@@ -222,6 +223,8 @@
 }
 
 .side-bar-body ul li a span {
+  display: inline-block;
+  width: 140px;
   padding-right: 18px;
   font-size: 9pt;
   font-weight: bold;
@@ -237,10 +240,6 @@
 }
 
 /*r-right*/
-
-.side-bar.right ul li a {
-  font-size: 9pt;
-}
 
 /* center */
 
