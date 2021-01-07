@@ -1,41 +1,48 @@
 .body-wrapper {
-  min-width: 1002px;
+  min-width: 30em;
 }
 
-/* Upper Header */
-
-/* .upper-header-wrapper {
-} */
+/*upper header*/
 
 .upper-header {
-  width: 939px;
-  margin: 0 auto;
+  padding-top: 10px;
+  width: 28.14em;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .logo {
   float: left;
-  padding: 20px 24px 16px 0;
+}
+
+.search-icon-div {
+  float: right;
+  margin: 10px 0 0 10px;
+}
+
+.triple-menu-icon-div {
+  float: right;
+  margin: 10px;
 }
 
 .search {
-  float: left;
-  margin: 40px 0 25px 0;
-  overflow: hidden;
+  display: none;
 }
 
 .searchbar {
   margin-right: 7px;
   float: left;
+  width: 78.2728999%
 }
 
 .searchbar-right input {
   float: left;
   display: block;
+  width: 88.8038%;
 }
 
 .search-btn {
-  float: left;
+  float: right;
 }
 
 .search-btn-right a {
@@ -43,7 +50,7 @@
 }
 
 .profile {
-  float: right;
+  display: none;
 }
 
 .profile-name {
@@ -55,20 +62,29 @@
   clear: right;
 }
 
+.triple-menu-icon-div a:hover+.profile {
+  display: block;
+}
+
 /*Lower Header*/
 
 .lower-header-wrapper {
-  margin-bottom: 30px;
-  padding: 0 32px;
+  margin-bottom: 10px;
 }
 
 .lower-header {
-  width: 939px;
+  width: 28.14em;
   margin: 0 auto;
   overflow: hidden;
 }
 
+.hamburger-icon-div {
+  float: left;
+  margin-top: 10px;
+}
+
 .nav {
+  display: none;
   float: left;
 }
 
@@ -86,28 +102,45 @@
 }
 
 .main {
-  width: 939px;
+  width: 28.14em;
   overflow: hidden;
   height: 100%;
+  margin: 0 auto;
 }
 
-/*left-bar*/
+/*left*/
 
 .left {
-  float: left;
-  margin-right: 26px;
+  margin-bottom: 20px;
+}
+
+.side-bar-body ul li a span {
+  display: inline-block;
+  width: 72.16494845%;
+}
+
+.side-bar {
   height: 100%;
 }
 
 /*r-right*/
 
 .r-right {
-  float: right;
-  margin-left: 24px;
-  height: 100%;
+  margin-bottom: 20px;
 }
 
 /*content*/
+
+.content {
+  height: 100%;
+}
+
+/*center*/
+
+.center {
+  height: 100%;
+  width: 100%;
+}
 
 .center-entries ul li {
   overflow: hidden;
@@ -121,18 +154,6 @@
   float: left;
 }
 
-.content {
-  height: 100%;
-}
-
-/*center*/
-
-.center {
-  float: right;
-  width: 518px;
-  height: 100%;
-}
-
 /*footer*/
 
 .footer-wrapper {
@@ -140,15 +161,8 @@
 }
 
 .footer {
-  width: 939px;
+  width: 28.14em;
   margin: 0 auto;
   overflow: hidden;
-}
-
-.footer-menu {
-  float: left;
-}
-
-.copyright-info {
-  float: right;
+  text-align: center;
 }
