@@ -117,6 +117,7 @@
         display: block;
         float: right;
         clear: none;
+        margin-right: 0;
     }
     .search {
         display: block;
