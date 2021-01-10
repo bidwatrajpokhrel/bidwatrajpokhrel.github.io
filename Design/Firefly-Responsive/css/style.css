@@ -1,0 +1,336 @@
+/*header*/
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.icon-list ul li .fab, .icon-list ul li .fas {
+    color: #b5bcc3;
+}
+
+.icon-list ul li .fab:hover, .icon-list ul li .fas:hover {
+    color: #6b7c93;
+}
+
+.upper-header .phone-number .roboto-light {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+.upper-header .phone-number .roboto-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+/*welcome-section*/
+
+.welcome-section-wrapper {
+    width: 100%;
+    background: url(../images/welcome-background.png) no-repeat;
+}
+
+.welcome-content h1, .welcome-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.welcome-content h1 {
+    font-size: 25pt;
+    color: #303842;
+}
+
+.welcome-content p {
+    font-size: 13.3pt;
+    color: #6b7c93;
+}
+
+.welcome-content button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+    color: #4caf50;
+}
+
+.welcome-content button:hover {
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.2);
+    transition: ease-out 0.3s;
+}
+
+/*our customers*/
+
+.our-customer-section-wrapper {
+    border-bottom: 1px #f0f0f0 solid;
+    border-top: 1px #f0f0f0 solid;
+}
+
+.our-customer-description h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25pt;
+    color: #3e454f;
+}
+
+.our-customer-description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    color: #6b7c93;
+}
+
+/*our services*/
+
+.title-and-description h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    color: #3e454f;
+    margin-bottom: 24px;
+}
+
+.title-and-description p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    color: #6b7c93;
+}
+
+.services-list-content {
+    cursor: pointer;
+}
+
+.services-list-content .bicycle {
+    background: url(../images/bicycle.png) no-repeat;
+}
+
+.services-list-content .light-bulb {
+    background: url(../images/light-bulb.png) no-repeat;
+}
+
+.services-list-content .paper-clip {
+    background: url(../images/paperclip.png) no-repeat;
+}
+
+.services-list-content .check-mark {
+    background: url(../images/checked.png) no-repeat;
+}
+
+.services-list-content:hover .bicycle {
+    background: url(../images/bicycle-green.png) no-repeat;
+}
+
+.services-list-content:hover .light-bulb {
+    background: url(../images/light-bulb-green.png) no-repeat;
+}
+
+.services-list-content:hover .paper-clip {
+    background: url(../images/paperclip-green.png) no-repeat;
+}
+
+.services-list-content:hover .check-mark {
+    background: url(../images/checked-green.png) no-repeat;
+}
+
+.services-list-content .content-text h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    color: #3e454f;
+}
+
+.services-list-content .content-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 9pt;
+    color: #6b7c93;
+}
+
+/*build great things*/
+
+.build-great-things-slanted {
+    transform: skewY(-4.71059314deg);
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+.build-great-things-straight {
+    transform: skewY(4.71059314deg);
+    background: #fafafa;
+}
+
+.build-list-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30pt;
+}
+
+.build-list-content .green {
+    color: #32d5ba;
+}
+
+.build-list-content .blue {
+    color: #6dc4f2;
+}
+
+.build-list-content .yellow {
+    color: #ffd13c;
+}
+
+.build-list-content .red {
+    color: #f44336;
+}
+
+.build-list-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    color: #303842;
+}
+
+/*contact us*/
+
+/* .contact-us-section-outer-wrapper {
+    background: #fafafa;
+}
+
+.contact-us-slanted {
+    transform: skewY(-4.71059314deg);
+    background-color: grey;
+    border: #ff0101 1px solid;
+    overflow: hidden;
+}
+
+.contact-us-straight {
+    transform: skewY(4.71059314deg);
+    background: url(../images/contact-us-background.png) no-repeat center;
+    background-size: cover;
+} */
+
+.contact-us-wrapper {
+    background: url(../images/contact-us-background-full.png) no-repeat;
+}
+
+.contact-us-description h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    color: #3e454f;
+    margin-bottom: 24px;
+}
+
+.contact-us-description p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 9pt;
+    color: #6b7c93;
+}
+
+.contact-us-form {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.contact-us-form label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    display: inline-block;
+    padding: 30px 0 10px 0;
+}
+
+.contact-us-form input, .contact-us-form textarea {
+    background: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-us-form textarea {
+    resize: none;
+}
+
+.button button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: #4caf50;
+}
+
+.button button:hover {
+    box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.2);
+    transition: ease-out 0.3s;
+}
+
+/*footer*/
+
+.footer-wrapper {
+    background-color: #fafafa;
+}
+
+.footer-description {
+    color: #8191a6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+.policy {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    color: #303842;
+    margin: 34px 0 24px 0;
+}
+
+.policy a {
+    margin-right: 30px;
+}
+
+.policy a:hover {
+    color: #303842;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    color: #303842;
+}
+
+.footer-list a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    color: #8191a6;
+}
+
+.footer-list a:hover {
+    color: #303842;
+}
+
+.footer-list li {
+    margin-bottom: 22px;
+}
+
+.list-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    color: #303842;
+    margin-bottom: 32px;
+}

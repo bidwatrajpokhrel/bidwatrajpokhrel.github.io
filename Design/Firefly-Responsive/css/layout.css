@@ -1,0 +1,299 @@
+.body-wrapper {
+    min-width: 30em;
+}
+
+/*upper header*/
+
+header {
+    position: sticky;
+    top: 0;
+    margin-top: -100px;
+    z-index: 99;
+}
+
+.upper-header-wrapper {
+    border-bottom: 1px solid #e5e2db;
+    padding: 14px 0;
+    display: none;
+}
+
+.upper-header {
+    width: 28em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.upper-header .icon-list {
+    float: left;
+}
+
+.icon-list ul li {
+    display: inline-block;
+}
+
+.icon-list ul li {
+    margin: 0 0 0 24px;
+}
+
+.icon-list ul li:first-child {
+    margin: 0 0 0 0;
+}
+
+.upper-header .phone-number {
+    float: right;
+}
+
+/*lower header*/
+
+.lower-header {
+    width: 28em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    padding: 14px 0;
+}
+
+.navigation {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    float: right;
+    font-size: 11pt;
+    display: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 0 12px;
+    margin: 0 18px;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    padding: 30px 0;
+    position: relative;
+}
+
+.navigation ul li a:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #4caf50;
+    opacity: 0;
+    top: -1px;
+}
+
+.navigation ul li:hover a:before {
+    opacity: 1;
+}
+
+.hamburger-menu {
+    float: right;
+    padding: 30px 0;
+}
+
+.hamburger-menu:hover~.navigation {
+    display: block;
+}
+
+/*welcome-content*/
+
+.welcome-section {
+    width: 28em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.welcome-content {
+    width: 95%;
+    text-align: center;
+    margin: 250px auto 250px auto;
+}
+
+.welcome-content p {
+    width: 98%;
+    margin: 25px auto 25px auto;
+}
+
+.welcome-content button {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 16px 0;
+}
+
+/*our customer*/
+
+.our-customer-section {
+    width: 28em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.our-customer-description {
+    width: 70%;
+    padding: 42px 0 36px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-customer-description h1 {
+    margin-bottom: 26px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-customer-list {
+    margin: auto;
+    text-align: center;
+}
+
+.our-customer-list ul li {
+    display: block;
+    padding: 30px 0 30px 0;
+}
+
+/*our services*/
+
+.our-services {
+    width: 28em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.our-services-content {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title-and-description {
+    margin: 0 auto 48px auto;
+}
+
+.title-and-description p {
+    width: 100%;
+}
+
+.our-services-list ul li {
+    margin: 0 auto;
+    display: block;
+    width: 44.22359294932%;
+    overflow: hidden;
+}
+
+.services-list-content {
+    margin-top: 30px;
+}
+
+.bicycle, .light-bulb, .paper-clip, .check-mark {
+    padding-left: 58px;
+}
+
+.content-text {
+    padding-left: 25px;
+    border-left: #f1f1f1 1px solid;
+}
+
+/*build great things*/
+
+.build-great-things-wrapper {
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+
+.build-great-things-inside {
+    width: 28em;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.build-great-things-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.build-great-things-list {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.build-great-things-list ul li {
+    display: block;
+    margin-bottom: 40px;
+}
+
+/*contact us*/
+
+.contact-us-wrapper {
+    padding-bottom: 30px;
+}
+
+.contact-us-inside {
+    width: 28em;
+    margin: 0 auto;
+}
+
+.contact-us-description {
+    padding-bottom: 40px;
+    text-align: center;
+    width: 70.964912280%;
+    margin: 0 auto;
+}
+
+.contact-us-form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 5% 30px 5%;
+}
+
+.contact-us-form input {
+    height: 50px;
+}
+
+.contact-us-form textarea {
+    height: 170px;
+}
+
+.email input, .message textarea {
+    width: 100%
+}
+
+.name input {
+    width: 100%;
+}
+
+.button button {
+    margin-top: 56px;
+    width: 40%;
+    padding: 19px;
+}
+
+/*footer*/
+
+.footer-wrapper {
+    border-top: #e9e9e9 1px solid;
+}
+
+.footer {
+    width: 28em;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 0 60px 0;
+    text-align: center;
+}
+
+.footer-list {
+    margin-top: 70px;
+}
+
+.footer-follow-us {
+    margin-top: 70px;
+}

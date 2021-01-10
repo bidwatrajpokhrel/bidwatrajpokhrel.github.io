@@ -1,0 +1,337 @@
+@media (min-width:480px) {}
+
+@media (min-width: 768px) {
+    .body-wrapper {
+        min-width: 48em;
+    }
+    header {
+        margin-top: -100px;
+    }
+    .lower-header {
+        width: 44em;
+    }
+    .welcome-section {
+        width: 44em;
+    }
+    .welcome-content h1 {
+        font-size: 30pt;
+    }
+    .welcome-content p {
+        width: 75.7918662%;
+        margin: 30px auto 30px auto;
+    }
+    .welcome-content button {
+        width: 40%;
+    }
+    .our-customer-section {
+        width: 44em;
+    }
+    .our-services {
+        width: 44em;
+    }
+    .our-services-list ul li {
+        display: inline-block;
+        margin: 0;
+    }
+    .our-services-list ul li:first-child {
+        margin-right: 64px;
+    }
+    .our-services-list ul li:last-child {
+        margin-left: 64px;
+    }
+    .build-great-things-inside {
+        width: 44em;
+    }
+    .build-great-things-list {
+        width: 80.1111111111%;
+        text-align: left;
+    }
+    .build-great-things-list ul li {
+        display: inline-block;
+        width: 34.090909090%;
+        margin-bottom: 40px;
+    }
+    .build-great-things-list ul li:first-child {
+        margin-right: 29.090909090909%
+    }
+    .build-great-things-list ul li:last-child {
+        margin-left: 29.090909090909%
+    }
+    .build-list-content p {
+        font-size: 10pt;
+    }
+    .contact-us-wrapper {
+        padding-bottom: 70px;
+    }
+    .contact-us-inside {
+        width: 44em;
+    }
+    .contact-us-form {
+        width: 80.31578947368%;
+        padding: 45px 4.7301587301587% 45px 4.7301587301587%;
+        margin-bottom: 90px;
+    }
+    .name {
+        overflow: hidden;
+    }
+    .first-name {
+        float: left;
+    }
+    .last-name {
+        float: right;
+    }
+    .first-name, .last-name {
+        width: 49%;
+    }
+    .name input {
+        width: 100%;
+    }
+    .button button {
+        width: 25.623481781%;
+    }
+    .footer {
+        width: 44em;
+        padding: 60px 0 70px 0;
+        text-align: left;
+    }
+    .about-firefly {
+        float: left;
+        width: 41.175438596491%;
+        margin-right: 5.543859649%;
+    }
+    .footer-list {
+        float: left;
+        width: 8.7719298245%;
+        margin-right: 5.403508771%;
+        margin-top: 0;
+    }
+    .footer-follow-us {
+        float: left;
+        width: 20.1578947368%;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .body-wrapper {
+        min-width: 64em;
+    }
+    header {
+        margin-top: -150px;
+    }
+    .upper-header-wrapper {
+        display: block;
+    }
+    .upper-header {
+        width: 60em;
+    }
+    .lower-header {
+        width: 60em;
+    }
+    .hamburger-menu .fas {
+        color: rgb(153, 160, 168);
+    }
+    .hamburger-menu a {
+        pointer-events: none;
+    }
+    .navigation {
+        display: block;
+    }
+    .welcome-section {
+        width: 60em;
+    }
+    .welcome-content h1 {
+        font-size: 35pt;
+    }
+    .welcome-content p {
+        width: 75.7918662%;
+        margin: 40px auto 40px auto;
+    }
+    .welcome-content button {
+        width: 20%;
+    }
+    .our-customer-section {
+        width: 60em;
+    }
+    .our-customer-description {
+        float: left;
+        margin: 0 0;
+        text-align: left;
+        font-size: 10pt;
+        width: 33.57894737%;
+    }
+    .our-customer-description h1 {
+        margin: 0 0;
+        text-align: left;
+        font-size: 20pt;
+    }
+    .our-customer-list {
+        float: right;
+        margin: 0 0;
+        text-align: left;
+        padding: 38px 0 34px 0;
+    }
+    .our-customer-list ul li {
+        display: inline-block;
+        margin-left: 40px
+    }
+    .our-services {
+        width: 60em;
+    }
+    .our-services-content {
+        width: 70%;
+        padding-top: 164px;
+        padding-bottom: 146px;
+    }
+    .services-list-content {
+        margin-top: 68px;
+    }
+    .build-great-things-inside {
+        width: 60em;
+    }
+    .build-great-things-list {
+        width: 61.1111111111%;
+        text-align: left;
+    }
+    .contact-us-wrapper {
+        padding-bottom: 70px;
+    }
+    .contact-us-inside {
+        width: 60em;
+    }
+    .contact-us-description {
+        padding-bottom: 96px;
+        width: 50.964912280%;
+    }
+    .contact-us-form {
+        width: 60.31578947368%;
+        padding: 60px 4.7301587301587% 60px 4.7301587301587%;
+        margin-bottom: 140px;
+    }
+    .footer {
+        width: 60em;
+        padding: 70px 0 80px 0;
+    }
+    .about-firefly {
+        float: left;
+        width: 30.175438596491%;
+        margin-right: 10.543859649%;
+    }
+    .footer-list {
+        float: left;
+        width: 8.7719298245%;
+        margin-right: 11.403508771%;
+    }
+    .footer-follow-us {
+        float: left;
+        width: 16.1578947368%;
+    }
+}
+
+@media (min-width: 1420px) {
+    .body-wrapper {
+        min-width: 88.75em;
+    }
+    header {
+        margin-top: -180px;
+    }
+    .upper-header {
+        width: 71.25em;
+    }
+    .lower-header {
+        width: 71.25em;
+    }
+    .welcome-section-wrapper {
+        background-size: contain;
+        background-position: center;
+    }
+    .welcome-section {
+        width: 71.25em;
+    }
+    .welcome-content {
+        width: 77.54385965%;
+    }
+    .welcome-content h1 {
+        font-size: 40.7pt;
+    }
+    .welcome-content p {
+        width: 75.7918662%;
+        margin: 40px auto 40px auto;
+    }
+    .welcome-content button {
+        width: 15.183710407%;
+    }
+    .our-customer-section {
+        width: 71.25em;
+    }
+    .our-customer-description {
+        width: 31.57894737%;
+    }
+    .our-customer-list {
+        padding: 38px 0 34px 0;
+    }
+    .our-customer-list ul li {
+        margin-left: 70px
+    }
+    .our-services {
+        width: 71.25em;
+    }
+    .our-services-wrapper {
+        background: url(../images/laptop-lady-background.png) no-repeat;
+        background-size: cover;
+    }
+    .our-services-content {
+        float: right;
+        margin: 0 0;
+        width: 58.439594912%;
+    }
+    .title-and-description {
+        margin: 0;
+    }
+    .title-and-description p {
+        width: 80%;
+        text-align: left;
+        font-size: 9pt;
+    }
+    .title-and-description h1 {
+        text-align: left;
+    }
+    .build-great-things-inside {
+        width: 71.25em;
+    }
+    .build-great-things-straight {
+        background: url(../images/man-bicycle.png) no-repeat center;
+        background-size: contain;
+    }
+    .build-great-things-content {
+        margin-left: 14.91228070175438596%;
+        width: 63.1578947368%;
+        margin: 0;
+    }
+    .title-and-description {
+        margin-bottom: 100px;
+    }
+    .build-great-things-list {
+        margin: 0;
+    }
+    .contact-us-inside {
+        width: 71.25em;
+    }
+    .contact-us-wrapper {
+        background: url(../images/contact-us-background-full.png) no-repeat center;
+        background-size: cover;
+    }
+    .contact-us-description {
+        padding-bottom: 96px;
+        width: 45.964912280%;
+    }
+    .contact-us-form {
+        width: 55.31578947368%;
+        padding: 72px 4.7301587301587% 72px 4.7301587301587%;
+        margin-bottom: 170px;
+    }
+    .footer {
+        width: 71.25em;
+        padding: 80px 0 90px 0;
+    }
+}

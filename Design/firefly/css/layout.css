@@ -1,0 +1,337 @@
+.body-wrapper {
+    min-width: 88.75em;
+}
+
+/*upper header*/
+
+header {
+    position: sticky;
+    top: 0;
+    margin-top: -220px;
+    z-index: 99;
+}
+
+.upper-header-wrapper {
+    border-bottom: 1px solid #e5e2db;
+    padding: 14px 0;
+}
+
+.upper-header {
+    width: 71.25em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.upper-header .icon-list {
+    float: left;
+}
+
+.icon-list ul li {
+    display: inline-block;
+}
+
+.icon-list ul li {
+    margin: 0 0 0 24px;
+}
+
+.icon-list ul li:first-child {
+    margin: 0 0 0 0;
+}
+
+.icon-list ul li .fab, .icon-list ul li .fas {
+    color: #b5bcc3;
+}
+
+.icon-list ul li .fab:hover, .icon-list ul li .fas:hover {
+    color: #6b7c93;
+}
+
+.upper-header .phone-number {
+    float: right;
+    font-size: 12pt;
+}
+
+/*lower header*/
+
+.lower-header {
+    width: 71.25em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    padding: 14px 0;
+}
+
+.navigation {
+    float: right;
+    font-size: 11pt;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 0 12px;
+    margin: 0 18px;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    padding: 30px 0;
+    position: relative;
+}
+
+.navigation ul li a:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #4caf50;
+    opacity: 0;
+    top: -1px;
+}
+
+.navigation ul li:hover a:before {
+    opacity: 1;
+}
+
+.hamburger-menu {
+    float: right;
+    padding: 30px 0;
+}
+
+/*welcome-content*/
+
+.welcome-section {
+    width: 71.25em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.welcome-content {
+    width: 77.54385965%;
+    text-align: center;
+    margin: 418px auto 180px auto;
+}
+
+.welcome-content p {
+    width: 75.7918662%;
+    margin: 40px auto 40px auto;
+}
+
+.welcome-content button {
+    width: 15.183710407%;
+}
+
+.welcome-content button a {
+    display: block;
+    padding: 16px 0;
+}
+
+/*our customer section*/
+
+.our-customer-section {
+    width: 71.25em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.our-customer-description {
+    float: left;
+    width: 31.57894737%;
+    padding: 42px 0 36px 0;
+}
+
+.our-customer-description h1 {
+    margin-bottom: 26px;
+}
+
+.our-customer-list {
+    float: right;
+    padding: 38px 0 34px 0;
+}
+
+.our-customer-list ul li {
+    display: inline-block;
+    margin-left: 70px
+}
+
+/*our services*/
+
+.our-services {
+    width: 71.25em;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.our-services-content {
+    float: right;
+    width: 58.439594912%;
+    padding-top: 164px;
+    padding-bottom: 146px;
+}
+
+.title-and-description {
+    margin-bottom: 48px;
+}
+
+.title-and-description p {
+    width: 80%;
+}
+
+.our-services-list ul li {
+    display: inline-block;
+    width: 44.22359294932%;
+    overflow: hidden;
+}
+
+.our-services-list ul li:first-child {
+    margin-right: 64px;
+}
+
+.our-services-list ul li:last-child {
+    margin-left: 64px;
+}
+
+.services-list-content {
+    margin-top: 68px;
+}
+
+.bicycle, .light-bulb, .paper-clip, .check-mark {
+    padding-left: 58px;
+}
+
+.content-text {
+    padding-left: 25px;
+    border-left: #f1f1f1 1px solid;
+}
+
+/*build great things*/
+
+.build-great-things-wrapper {
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+
+.build-great-things-inside {
+    width: 71.25em;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.build-great-things-content {
+    margin-left: 14.91228070175438596%;
+    width: 63.1578947368%
+}
+
+.build-great-things-list {
+    width: 61.1111111111%
+}
+
+.build-great-things-list ul li {
+    display: inline-block;
+    width: 34.090909090%
+}
+
+.build-great-things-list ul li:first-child {
+    margin-right: 29.090909090909%
+}
+
+.build-great-things-list ul li:last-child {
+    margin-left: 29.090909090909%
+}
+
+/*contact us*/
+
+.contact-us-wrapper {
+    padding-bottom: 70px;
+}
+
+.contact-us-inside {
+    width: 71.25em;
+    margin: 0 auto;
+}
+
+.contact-us-description {
+    padding-bottom: 96px;
+    text-align: center;
+    width: 45.964912280%;
+    margin: 0 auto;
+}
+
+.contact-us-form {
+    width: 55.31578947368%;
+    margin: 0 auto;
+    padding: 72px 4.7301587301587% 72px 4.7301587301587%;
+}
+
+.contact-us-form input {
+    height: 50px;
+}
+
+.contact-us-form textarea {
+    height: 170px;
+}
+
+.name {
+    overflow: hidden;
+}
+
+.first-name {
+    float: left;
+}
+
+.last-name {
+    float: right;
+}
+
+.email input, .message textarea {
+    width: 100%
+}
+
+.first-name, .last-name {
+    width: 49%;
+}
+
+.name input {
+    width: 100%;
+}
+
+.button button {
+    margin-top: 56px;
+    width: 25.623481781%;
+    padding: 19px;
+}
+
+/*footer*/
+
+.footer-wrapper {
+    border-top: #e9e9e9 1px solid;
+}
+
+.footer {
+    width: 71.25em;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0 90px 0;
+}
+
+.about-firefly {
+    float: left;
+    width: 30.175438596491%;
+    margin-right: 13.543859649%;
+}
+
+.footer-list {
+    float: left;
+    width: 8.7719298245%;
+    margin-right: 11.403508771%;
+}
+
+.footer-follow-us {
+    float: left;
+    width: 13.1578947368%;
+}
