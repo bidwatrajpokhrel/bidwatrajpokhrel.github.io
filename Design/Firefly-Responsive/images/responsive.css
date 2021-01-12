@@ -28,10 +28,7 @@
     }
     .our-customer-list ul li {
         display: inline-block;
-        margin-left: 50px;
-    }
-    .our-customer-list ul li:first-child {
-        margin-left: 0;
+        padding: 30px 0 30px 0;
     }
     .our-services {
         width: 44em;
@@ -290,7 +287,7 @@
     .our-services-content {
         float: right;
         margin: 0 0;
-        width: 53.439594912%;
+        width: 58.439594912%;
     }
     .title-and-description {
         margin: 0;
