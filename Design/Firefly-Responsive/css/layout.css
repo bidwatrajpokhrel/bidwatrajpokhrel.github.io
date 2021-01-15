@@ -56,14 +56,6 @@ header {
     padding: 14px 0;
 }
 
-.navigation {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    float: right;
-    font-size: 11pt;
-    display: none;
-}
-
 .navigation ul li {
     display: inline-block;
     padding: 0 12px;

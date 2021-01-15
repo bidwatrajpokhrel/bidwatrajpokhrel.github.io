@@ -23,7 +23,7 @@
     }
     .our-customer-description {
         width: 70%;
-        padding: 42px 0 36px 0;
+        padding: 34px 0 42px 0;
     }
     .our-customer-description h1 {
         margin-bottom: 26px;
@@ -103,9 +103,6 @@
     .welcome-section {
         width: 44em;
     }
-    .welcome-content h1 {
-        font-size: 30pt;
-    }
     .welcome-content p {
         width: 75.7918662%;
         margin: 30px auto 30px auto;
@@ -140,7 +137,7 @@
         width: 44em;
     }
     .build-great-things-list {
-        width: 80.1111111111%;
+        width: 85.1111111111%;
         text-align: left;
     }
     .build-great-things-list ul li {
@@ -153,9 +150,6 @@
     }
     .build-great-things-list ul li:last-child {
         margin-left: 29.090909090909%
-    }
-    .build-list-content p {
-        font-size: 10pt;
     }
     .contact-us-wrapper {
         padding-bottom: 70px;
@@ -237,9 +231,6 @@
     .welcome-section {
         width: 60em;
     }
-    .welcome-content h1 {
-        font-size: 35pt;
-    }
     .welcome-content p {
         width: 75.7918662%;
         margin: 40px auto 40px auto;
@@ -254,13 +245,11 @@
         float: left;
         margin: 0 0;
         text-align: left;
-        font-size: 10pt;
         width: 33.57894737%;
     }
     .our-customer-description h1 {
-        margin: 0 0;
+        margin: 0 0 24px 0;
         text-align: left;
-        font-size: 20pt;
     }
     .our-customer-list {
         float: right;
@@ -287,7 +276,7 @@
         width: 60em;
     }
     .build-great-things-list {
-        width: 61.1111111111%;
+        width: 65.1111111111%;
         text-align: left;
     }
     .contact-us-wrapper {
@@ -338,6 +327,9 @@
     .lower-header {
         width: 71.25em;
     }
+    .navigation {
+        font-size: 11px;
+    }
     .welcome-section-wrapper {
         background-size: contain;
         background-position: center;
@@ -346,17 +338,14 @@
         width: 71.25em;
     }
     .welcome-content {
-        width: 77.54385965%;
-    }
-    .welcome-content h1 {
-        font-size: 40.7pt;
+        width: 85.19230769%;
     }
     .welcome-content p {
-        width: 75.7918662%;
+        width: 76.2979684%;
         margin: 40px auto 40px auto;
     }
     .welcome-content button {
-        width: 15.183710407%;
+        width: 16.02708804%;
     }
     .our-customer-section {
         width: 71.25em;
@@ -386,9 +375,8 @@
         margin: 0;
     }
     .title-and-description p {
-        width: 85%;
+        width: 87.10991957%;
         text-align: left;
-        font-size: 11pt;
     }
     .title-and-description h1 {
         text-align: left;
@@ -402,7 +390,7 @@
     }
     .build-great-things-content {
         margin-left: 14.91228070175438596%;
-        width: 63.1578947368%;
+        width: 65.1578947368%;
         margin: 0;
     }
     .title-and-description {
@@ -421,12 +409,6 @@
     .contact-us-description {
         padding-bottom: 96px;
         width: 45.964912280%;
-    }
-    .contact-us-description h1 {
-        font-size: 20pt;
-    }
-    .contact-us-description p {
-        font-size: 11pt;
     }
     .contact-us-form {
         width: 55.31578947368%;

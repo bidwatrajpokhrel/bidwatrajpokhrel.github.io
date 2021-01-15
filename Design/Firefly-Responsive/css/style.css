@@ -17,13 +17,21 @@ header {
 .upper-header .phone-number .roboto-light {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 12px;
 }
 
 .upper-header .phone-number .roboto-regular {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 12pt;
+    font-size: 12px;
+}
+
+.navigation {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    float: right;
+    font-size: 14px;
+    display: none;
 }
 
 /*welcome-section*/
@@ -39,19 +47,19 @@ header {
 }
 
 .welcome-content h1 {
-    font-size: 25pt;
+    font-size: 56px;
     color: #303842;
 }
 
 .welcome-content p {
-    font-size: 13.3pt;
+    font-size: 18px;
     color: #6b7c93;
 }
 
 .welcome-content button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 13pt;
+    font-size: 14px;
     background-color: #ffffff;
     border-radius: 25px;
     border: none;
@@ -74,14 +82,14 @@ header {
 .our-customer-description h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 25pt;
+    font-size: 24px;
     color: #3e454f;
 }
 
 .our-customer-description p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 14px;
     color: #6b7c93;
 }
 
@@ -91,7 +99,7 @@ header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 20pt;
+    font-size: 34px;
     color: #3e454f;
     margin-bottom: 24px;
 }
@@ -100,7 +108,7 @@ header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 11pt;
+    font-size: 14px;
     color: #6b7c93;
 }
 
@@ -143,14 +151,14 @@ header {
 .services-list-content .content-text h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 9pt;
+    font-size: 13px;
     color: #3e454f;
 }
 
 .services-list-content .content-text p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 9pt;
+    font-size: 14px;
     color: #6b7c93;
 }
 
@@ -170,7 +178,7 @@ header {
 .build-list-content h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 30pt;
+    font-size: 44px;
 }
 
 .build-list-content .green {
@@ -192,7 +200,7 @@ header {
 .build-list-content p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 15px;
     color: #303842;
 }
 
@@ -222,7 +230,7 @@ header {
 .contact-us-description h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 20pt;
+    font-size: 34px;
     color: #3e454f;
     margin-bottom: 24px;
 }
@@ -230,7 +238,7 @@ header {
 .contact-us-description p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 11pt;
+    font-size: 14px;
     color: #6b7c93;
 }
 
@@ -244,7 +252,7 @@ header {
 .contact-us-form label {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 9pt;
+    font-size: 14px;
     display: inline-block;
     padding: 30px 0 10px 0;
 }
@@ -262,7 +270,7 @@ header {
 .button button {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 13pt;
+    font-size: 14px;
     background-color: #ffffff;
     border-radius: 25px;
     border: none;
@@ -286,13 +294,13 @@ header {
     color: #8191a6;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 10pt;
+    font-size: 14px;
 }
 
 .policy {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 10pt;
+    font-size: 12px;
     color: #303842;
     margin: 34px 0 24px 0;
 }
@@ -308,14 +316,14 @@ header {
 .copyright {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 10pt;
+    font-size: 14px;
     color: #303842;
 }
 
 .footer-list a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 10pt;
+    font-size: 14px;
     color: #8191a6;
 }
 
@@ -330,7 +338,7 @@ header {
 .list-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 10pt;
+    font-size: 14px;
     color: #303842;
     margin-bottom: 32px;
 }
