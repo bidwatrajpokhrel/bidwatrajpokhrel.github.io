@@ -1,5 +1,5 @@
 .body-wrapper {
-    min-width: 30em;
+    min-width: 20em;
 }
 
 /*upper header*/
@@ -46,7 +46,7 @@ header {
 /*lower header*/
 
 .lower-header {
-    width: 28em;
+    width: 19em;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -103,24 +103,24 @@ header {
 /*welcome-content*/
 
 .welcome-section {
-    width: 28em;
+    width: 19em;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .welcome-content {
-    width: 95%;
+    width: 99%;
     text-align: center;
-    margin: 250px auto 250px auto;
+    margin: 180px auto 180px auto;
 }
 
 .welcome-content p {
-    width: 98%;
+    width: 99%;
     margin: 25px auto 25px auto;
 }
 
 .welcome-content button {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: block;
     padding: 16px 0;
@@ -129,20 +129,20 @@ header {
 /*our customer*/
 
 .our-customer-section {
-    width: 28em;
+    width: 19em;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .our-customer-description {
-    width: 70%;
-    padding: 42px 0 36px 0;
+    width: 90%;
+    padding: 30px 0 30px 0;
     margin: 0 auto;
     text-align: center;
 }
 
 .our-customer-description h1 {
-    margin-bottom: 26px;
+    margin-bottom: 16px;
     margin: 0 auto;
     text-align: center;
 }
@@ -160,7 +160,7 @@ header {
 /*our services*/
 
 .our-services {
-    width: 28em;
+    width: 19em;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -168,12 +168,12 @@ header {
 .our-services-content {
     margin: 0 auto;
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .title-and-description {
-    margin: 0 auto 48px auto;
+    margin: 0 auto 35px auto;
 }
 
 .title-and-description p {
@@ -183,12 +183,12 @@ header {
 .our-services-list ul li {
     margin: 0 auto;
     display: block;
-    width: 44.22359294932%;
+    width: 65.22359294932%;
     overflow: hidden;
 }
 
 .services-list-content {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .bicycle, .light-bulb, .paper-clip, .check-mark {
@@ -203,20 +203,20 @@ header {
 /*build great things*/
 
 .build-great-things-wrapper {
-    padding-top: 50px;
-    margin-bottom: 70px;
+    padding-top: 30px;
+    margin-bottom: 50px;
 }
 
 .build-great-things-inside {
-    width: 28em;
+    width: 19em;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 145px;
-    padding-bottom: 135px;
+    padding-top: 90px;
+    padding-bottom: 85px;
 }
 
 .build-great-things-content {
-    width: 80%;
+    width: 98%;
     margin: 0 auto;
 }
 
@@ -227,39 +227,39 @@ header {
 
 .build-great-things-list ul li {
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 /*contact us*/
 
 .contact-us-wrapper {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .contact-us-inside {
-    width: 28em;
+    width: 19em;
     margin: 0 auto;
 }
 
 .contact-us-description {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     text-align: center;
-    width: 70.964912280%;
+    width: 90.964912280%;
     margin: 0 auto;
 }
 
 .contact-us-form {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
-    padding: 30px 5% 30px 5%;
+    padding: 15px 2% 25px 2%;
 }
 
 .contact-us-form input {
-    height: 50px;
+    height: 30px;
 }
 
 .contact-us-form textarea {
-    height: 170px;
+    height: 130px;
 }
 
 .email input, .message textarea {
@@ -271,9 +271,9 @@ header {
 }
 
 .button button {
-    margin-top: 56px;
-    width: 40%;
-    padding: 19px;
+    margin: 36px auto 10px auto;
+    width: 50%;
+    padding: 10px;
 }
 
 /*footer*/
@@ -283,11 +283,15 @@ header {
 }
 
 .footer {
-    width: 28em;
+    width: 19em;
     margin: 0 auto;
     overflow: hidden;
-    padding: 50px 0 60px 0;
+    padding: 30px 0 40px 0;
     text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 32px;
 }
 
 .footer-list {

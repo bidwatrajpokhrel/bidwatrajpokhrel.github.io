@@ -1,4 +1,94 @@
-@media (min-width:480px) {}
+@media (min-width:480px) {
+    .body-wrapper {
+        min-width: 30em;
+    }
+    .lower-header {
+        width: 28em;
+    }
+    .welcome-section {
+        width: 28em;
+    }
+    .welcome-content {
+        width: 95%;
+        margin: 250px auto 250px auto;
+    }
+    .welcome-content p {
+        width: 98%;
+    }
+    .welcome-content button {
+        width: 60%;
+    }
+    .our-customer-section {
+        width: 28em;
+    }
+    .our-customer-description {
+        width: 70%;
+        padding: 42px 0 36px 0;
+    }
+    .our-customer-description h1 {
+        margin-bottom: 26px;
+    }
+    .our-services {
+        width: 28em;
+    }
+    .our-services-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .title-and-description {
+        margin: 0 auto 48px auto;
+    }
+    .our-services-list ul li {
+        width: 44.22359294932%;
+    }
+    .services-list-content {
+        margin-top: 30px;
+    }
+    .build-great-things-wrapper {
+        padding-top: 50px;
+        margin-bottom: 70px;
+    }
+    .build-great-things-inside {
+        width: 28em;
+        padding-top: 145px;
+        padding-bottom: 135px;
+    }
+    .build-great-things-content {
+        width: 80%;
+    }
+    .build-great-things-list ul li {
+        margin-bottom: 40px;
+    }
+    .contact-us-wrapper {
+        padding-bottom: 30px;
+    }
+    .contact-us-inside {
+        width: 28em;
+    }
+    .contact-us-description {
+        padding-bottom: 40px;
+        width: 70.964912280%;
+    }
+    .contact-us-form {
+        width: 90%;
+        padding: 30px 5% 30px 5%;
+    }
+    .contact-us-form input {
+        height: 50px;
+    }
+    .contact-us-form textarea {
+        height: 170px;
+    }
+    .button button {
+        margin: 56px 0 0 0;
+        width: 40%;
+        padding: 19px;
+    }
+    .footer {
+        width: 28em;
+        padding: 50px 0 60px 0;
+    }
+}
 
 @media (min-width: 768px) {
     .body-wrapper {
@@ -296,9 +386,9 @@
         margin: 0;
     }
     .title-and-description p {
-        width: 80%;
+        width: 85%;
         text-align: left;
-        font-size: 9pt;
+        font-size: 11pt;
     }
     .title-and-description h1 {
         text-align: left;
@@ -331,6 +421,12 @@
     .contact-us-description {
         padding-bottom: 96px;
         width: 45.964912280%;
+    }
+    .contact-us-description h1 {
+        font-size: 20pt;
+    }
+    .contact-us-description p {
+        font-size: 11pt;
     }
     .contact-us-form {
         width: 55.31578947368%;
