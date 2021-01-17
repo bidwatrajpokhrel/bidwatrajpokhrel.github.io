@@ -6,26 +6,52 @@
     <title>j</title>
     <link rel="stylesheet" href="css/reset.css" class="href">
     <link rel="stylesheet" href="css/layout.css" class="href">
-    <link rel="stylesheet" href="css/style.css" class="href">
-    <link rel="stylesheet" href="css/responsive.css" class="href">
 </head>
 <body>
-    <div class="carousel-wrapper">
-        <div class="carousel-container">
-            <img src="https://picsum.photos/id/1/400/300" alt="Image One">
-            <img src="https://picsum.photos/id/20/400/300" alt="Image Two">
-            <img src="https://picsum.photos/id/30/400/300" alt="Image Three">
-            <img src="https://picsum.photos/id/40/400/300" alt="Image Four">
-            <img src="https://picsum.photos/id/50/400/300" alt="Image Five">
-            <img src="https://picsum.photos/id/60/400/300" alt="Image Six">
+    <h1>Image Carousel</h1>
+    <h2>Object Oriented with Variable Speed and Hold</h2>
+    <div class="body-wrapper">
+        <!-- carousel 1 -->
+        <div class="wrapper">
+            <div class="carousel-wrapper-one">
+                <div class="carousel-container">
+                    <img src="https://picsum.photos/id/1/400/300" alt="Image One">
+                    <img src="https://picsum.photos/id/20/400/300" alt="Image Two">
+                    <img src="https://picsum.photos/id/30/400/300" alt="Image Three">
+                    <img src="https://picsum.photos/id/40/400/300" alt="Image Four">
+                    <img src="https://picsum.photos/id/50/400/300" alt="Image Five">
+                    <img src="https://picsum.photos/id/60/400/300" alt="Image Six">
+                    <img src="https://picsum.photos/id/70/400/300" alt="Image Seven">
+                    <img src="https://picsum.photos/id/80/400/300" alt="Image Eight">
+                    <img src="https://picsum.photos/id/90/400/300" alt="Image Nine">
+                </div>
+            </div>
         </div>
-        
-        <button class="prev">Prev</button>
-        <button class="next">Next</button>
 
-        <div class="nav-dots">
+        <!-- carousel 2 -->
+        <div class="wrapper">
+            <div class="carousel-wrapper-two">
+                <div class="carousel-container">
+                    <img src="https://picsum.photos/id/3/500/300" alt="Image One">
+                    <img src="https://picsum.photos/id/23/500/300" alt="Image Two">
+                    <img src="https://picsum.photos/id/33/500/300" alt="Image Three">
+                    <img src="https://picsum.photos/id/42/500/300" alt="Image Four">
+                    <img src="https://picsum.photos/id/53/500/300" alt="Image Five">
+                    <img src="https://picsum.photos/id/63/500/300" alt="Image Six">
+                    <img src="https://picsum.photos/id/73/500/300" alt="Image Seven">
+                    <img src="https://picsum.photos/id/82/500/300" alt="Image Eight">
+                    <img src="https://picsum.photos/id/93/500/300" alt="Image Nine">
+                </div>
+            </div>
         </div>
+
     </div>
-    <script src="js/index.js"></script>
+    <script src="js/carousel.js"></script>
+    <script>
+        //------------------------- (wrapper-class,width,height,transition, hold)
+        var carousel = new Carousel('carousel-wrapper-one', 400, 300, 1000, 4000);
+        var carousel = new Carousel('carousel-wrapper-two', 500, 300, 2000, 3000);
+    </script>
+    
 </body>
 </html>
