@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas {
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+.list-container {
+    position: absolute;
+    font-size: x-large;
+}
+
+.list-container ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
