@@ -89,7 +89,7 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         navigationDots.classList.add('navigation-dots');
         navigationDots.style.position = 'absolute';
         navigationDots.style.top = '90%';
-        navigationDots.style.left = '25%';
+        navigationDots.style.left = '27%';
         wrapper.appendChild(navigationDots);
     }
 
