@@ -1,3 +1,11 @@
+/**
+ * 'Class' that defines a carousel
+ * @param {*} wrapperClass - REQUIRED: wrapper class of carousel
+ * @param {*} width - DEFAULT 400; Width of carousel (px)
+ * @param {*} height - DEFAULT 300; Height of carousel (px)
+ * @param {*} transition - DEFAULT 1000; Transition time (ms) between images
+ * @param {*} hold -DEFAULT 2000; Hold time (ms) of image during automatic slide 
+ */
 function Carousel(wrapperClass, width, height, transition, hold) {
 
     //defining wrapper, container and images
@@ -5,6 +13,12 @@ function Carousel(wrapperClass, width, height, transition, hold) {
     let container = wrapper.getElementsByClassName('carousel-container')[0];
     let images = container.getElementsByTagName('img');
     let nextButton, previousButton, navigationDots;
+
+    //params
+    width = width || 400;
+    height = height || 300;
+    transition = transition || 1000;
+    hold = hold || 2000;
 
     //variables
     let currentPosition = 0;
@@ -15,6 +29,9 @@ function Carousel(wrapperClass, width, height, transition, hold) {
     config();
     init();
 
+    /**
+     * Configures wrapper, all additional buttons and navigation labels
+     */
     function config() {
         //wrapper
         wrapper.style.position = 'relative';
@@ -76,6 +93,11 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         wrapper.appendChild(navigationDots);
     }
 
+
+    /**
+     * Styles each individual naviation dot
+     * @param {*} dot - div element for navigation dot
+     */
     function styledots(dot) {
         dot.style.float = 'left';
         dot.style.background = '#000000';
@@ -93,6 +115,9 @@ function Carousel(wrapperClass, width, height, transition, hold) {
 
 
 
+    /**
+     * Initializes the functional slider
+     */
     function init() {
         for (let index = 0; index < images.length; index++) {
             images[index].style.left = (index * 100) + '%';
@@ -102,6 +127,10 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         automaticSlide();
     }
 
+    /**
+     * Create each dot dynamically and style them
+     * @param {*} dotIndex - index of the dot withing navigationDots div
+     */
     function createDots(dotIndex) {
         let dot = document.createElement('div');
         dot.classList.add('dot');
@@ -125,6 +154,9 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         });
     }
 
+    /**
+     * View the next iamge
+     */
     function viewNext() {
         if (currentPosition != ((images.length - 1) * width)) {
             slideRight(currentPosition + width);
@@ -134,6 +166,9 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         }
     }
 
+    /**
+     * view the previous image
+     */
     function viewPrevious() {
         if (currentPosition != 0) {
             slideLeft(currentPosition - width);
@@ -143,6 +178,10 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         }
     }
 
+    /**
+     * function to slide images to the right
+     * @param {*} targetPosition - position for where the image needs to go
+     */
     function slideRight(targetPosition) {
         let step = ((currentPosition - targetPosition) * (transition / 1000)) / fps;
         let currentPositionInterim = currentPosition;
@@ -155,11 +194,15 @@ function Carousel(wrapperClass, width, height, transition, hold) {
                 container.style.left = '-' + normalizedPosition + 'px';
                 currentPosition = normalizedPosition;
                 changeCurrentNavDots();
-                console.log(normalizedPosition);
+                // console.log(normalizedPosition);
             }
         }, frame)
     }
 
+    /**
+     * function to slide images to the left
+     * @param {*} targetPosition - position for where the image needs to go
+     */
     function slideLeft(targetPosition) {
         let step = ((targetPosition - currentPosition) * (transition / 1000)) / fps;
         let currentPositionInterim = currentPosition;
@@ -172,17 +215,23 @@ function Carousel(wrapperClass, width, height, transition, hold) {
                 container.style.left = '-' + normalizedPosition + 'px';
                 currentPosition = normalizedPosition;
                 changeCurrentNavDots();
-                console.log(normalizedPosition);
+                // console.log(normalizedPosition);
             }
         }, frame)
     }
 
+    /**
+     * set the automatic interval
+     */
     function automaticSlide() {
         automaticInterval = setInterval(function () {
             viewNext();
         }, hold)
     }
 
+    /**
+     * change the style of navigation dots as they go
+     */
     function changeCurrentNavDots() {
         let index = currentPosition / width;
         for (let i = 0; i < navigationDots.children.length; i++) {
@@ -191,6 +240,9 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         navigationDots.children[index].style.background = '#eeeeee';
     }
 
+    /**
+     * onClick next button
+     */
     nextButton.addEventListener('click', function () {
         clearInterval(automaticInterval);
         viewNext();
@@ -199,6 +251,7 @@ function Carousel(wrapperClass, width, height, transition, hold) {
         }, hold + 1000);
     });
 
+    /**onClick previous button */
     previousButton.addEventListener('click', function () {
         clearInterval(automaticInterval);
         viewPrevious();
