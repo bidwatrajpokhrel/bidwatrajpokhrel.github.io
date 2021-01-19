@@ -23,7 +23,7 @@ class Ant {
         this.dx = Math.random() * 2;
         this.dy = Math.random() * 2;
         //setting mass as a factor of radius will make bigger ants have more intertia than smaller ones.
-        this.mass = this.radius;
+        this.mass = this.radius * this.radius * this.radius;
         this.image = document.getElementById('ant');
     }
 

@@ -27,7 +27,7 @@ function getRandomColor() {
 function checkCollision(ball1, ball2) {
     let distance = getDistance(ball1, ball2);
     let radiusSum = ball1.radius + ball2.radius;
-    return (distance - radiusSum <= 0);
+    return ((distance - radiusSum + 1) <= 0);
 }
 
 //gets the distance between balls
