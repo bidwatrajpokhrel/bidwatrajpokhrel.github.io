@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box-Collision</title>
+    <title>Ant Smasher</title>
     <link rel="stylesheet" href="index.css" class="">
 </head>
 <body>
@@ -20,12 +20,12 @@
     <canvas id="canvas"></canvas>
     </div>
 
-
-    <script src="js/calc.js"></script>
-    <script src="js/ball.js"></script>
-    <script src="js/index.js"></script>
+    <img id="ant" style="display: none" src = 'img/ant-transparent.png'>
+    <script src="ant-smasher-js/ant-calc.js"></script>
+    <script src="ant-smasher-js/ant.js"></script>
+    <script src="ant-smasher-js/ant-index.js"></script>
     <script>
-        new Main(100, 20, 5);
+        new AntMain(30, 28, 32);
     </script>
 </body>
 </html>
