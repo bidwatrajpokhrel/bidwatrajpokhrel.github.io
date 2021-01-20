@@ -318,7 +318,6 @@ class Game {
         img.setAttribute('src', imageSource);
         img.style.width = this.gameDivWidth + 'px';
         img.style.height = this.gameDivHeight + 'px';
-        // img.style.objectFit = 'stretch';
         img.style.display = 'block'
         this.roadWrapper.appendChild(img);
     }
