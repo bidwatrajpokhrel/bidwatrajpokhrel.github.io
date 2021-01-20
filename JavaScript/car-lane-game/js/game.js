@@ -311,16 +311,14 @@ class Game {
         this.gameDiv.appendChild(this.roadWrapper);
         this.addRoadImage('images/background-small.png');
         this.addRoadImage('images/background-small.png');
-        this.addRoadImage('images/background-small.png');
 
     }
-
     addRoadImage(imageSource) {
         var img = document.createElement('img');
         img.setAttribute('src', imageSource);
         img.style.width = this.gameDivWidth + 'px';
         img.style.height = this.gameDivHeight + 'px';
-        img.style.objectFit = 'stretch';
+        // img.style.objectFit = 'stretch';
         img.style.display = 'block'
         this.roadWrapper.appendChild(img);
     }
