@@ -16,8 +16,8 @@ class Bird {
         this.height = height;
         this.radius = radius;
         this.frame = 0;
-        this.gravity = 0.25;
-        this.jump = 4.6;
+        this.gravity = 0.125;
+        this.jump = 2.3;
         this.speed = 0;
         this.rotation = 0;
     }
