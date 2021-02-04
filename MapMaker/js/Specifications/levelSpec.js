@@ -1,0 +1,27 @@
+export const level = {
+  backgrounds: [
+    { tile: "back", ranges: [] },
+    { tile: "ground", ranges: [] },
+    { tile: "l-slant", ranges: [] },
+    { tile: "r-slant", ranges: [] },
+    { tile: "blue-ground", ranges: [] },
+    { tile: "water", ranges: [] },
+    { tile: "water-l-slant", ranges: [] },
+    { tile: "water-r-slant", ranges: [] },
+    { tile: "big-ball-maker", ranges: [] },
+    { tile: "big-ball-maker-water", ranges: [] },
+    { tile: "small-ball-maker", ranges: [] },
+    { tile: "small-ball-maker-water", ranges: [] },
+    { tile: "small-ball-maker-inverse", ranges: [] },
+    { tile: "spike", ranges: [] },
+    { tile: "spike-inverse", ranges: [] },
+  ],
+  entities: [],
+  rings: 0,
+  ballSize: "small",
+  startingPosition: {
+    x: 100,
+    y: 200,
+  },
+  nextLevel: "level3",
+};
